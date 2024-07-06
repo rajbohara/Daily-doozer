@@ -1,0 +1,103 @@
+.navbar {
+    --bs-navbar-brand-font-size: 4vh;
+    position: sticky;
+    top: 0;
+    --bs-bg-opacity: 1;
+    z-index: 1000;
+}
+.bg-body-tertiary1 {
+    --bs-bg-opacity: 1;
+    background-color: white;
+  }
+
+.form-control {
+   
+    font-size: 2.5vh;
+     }
+.themeImage {
+    width: 100%;
+
+}
+.main {
+    display: flex;
+    padding: 2%;
+    gap: 2%;
+    
+}
+.left-main{
+    width: 65%;
+    max-height: 80vh;
+   position: sticky;
+   top: 10%;
+   left: 0;
+}
+.right-main {
+    
+  
+    width: 100%;
+    
+}
+
+.timeline-part {
+    display: flex;
+
+    background-color: rgb(218, 218, 218);
+    gap: 0.5%;
+    margin-bottom: 1%;
+
+}
+.timeline-part-date{
+    width: 10%;
+    background-color: white;
+}
+.timeline-part-content {
+    width: 100%;
+    background-color: white;
+    padding-left: 1%;
+    padding-top: 1%;
+}
+.thought {
+    padding: 10%;
+}
+.buttons {
+    gap: 5%;
+    display: flex;
+    font-size: 2.5vh;
+    height:  6vh;
+}
+
+.btn-outline-success {
+    --bs-btn-color: rgb(59, 59, 59);
+    --bs-btn-border-color: rgb(59, 59, 59);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(59, 59, 59);
+    --bs-btn-hover-border-color: rgb(59, 59, 59);
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(59, 59, 59);
+    --bs-btn-active-border-color: rgb(59, 59, 59);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(59, 59, 59);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(59, 59, 59);
+    --bs-gradient: none;
+  }
+  .pinky {
+    --bs-btn-color: rgb(229, 72, 197);
+    --bs-btn-border-color: rgb(229, 72, 197);
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: rgb(229, 72, 197);
+    --bs-btn-hover-border-color: rgb(229, 72, 197);
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(229, 72, 197);
+    --bs-btn-active-border-color: rgb(229, 72, 197);
+    --bs-btn-active-shadow: inset 0 3px 5px rgb(229, 72, 197);
+    --bs-btn-disabled-color: rgb(229, 72, 197);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(229, 72, 197);
+    --bs-gradient: none;
+  }
+  .words {
+    color:  rgb(229, 72, 197);
+  }
