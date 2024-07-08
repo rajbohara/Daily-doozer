@@ -13,8 +13,8 @@
         <div class="container-fluid">
           
           <div class="buttons">
-            <a class="navbar-brand">Diary</a>
-           <div class="buttons"> <button type="button" class="btn btn-outline-success">Calender</button> 
+            <a href="index.html" class="navbar-brand">Diary</a>
+           <div class="buttons"> <button type="button" class="btn btn-outline-success" id="btn" onclick="Showcal()">Calender</button>
             <button type="button" class="btn btn-outline-success">Social</button>
             <button type="button" class="btn btn-outline-success pinky">Create</button>
             </div>
@@ -118,3 +118,8 @@
 <button class="add-entry"><h1>+</h1></button>
 </body>
 </html>
+<script>
+ function Showcal(){
+  window.location.href = 'calender.html';
+ }
+</script>

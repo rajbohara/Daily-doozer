@@ -64,7 +64,7 @@
     display: flex;
     font-size: 2.5vh;
     height:  6vh;
-}
+  }
 
 .btn-outline-success {
     --bs-btn-color: rgb(59, 59, 59);
@@ -81,7 +81,22 @@
     --bs-btn-disabled-bg: transparent;
     --bs-btn-disabled-border-color: rgb(59, 59, 59);
     --bs-gradient: none;
+    box-shadow: 1px 1px;
   }
+  .btn-outline-success-pressed {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: rgb(59, 59, 59);
+    --bs-btn-border-color: rgb(59, 59, 59);
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: rgb(59, 59, 59);
+    --bs-btn-active-bg: rgb(59, 59, 59);
+    --bs-btn-active-border-color: rgb(59, 59, 59);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: rgb(59, 59, 59);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(59, 59, 59);
+    --bs-gradient: none;
+  } 
   .pinky {
     --bs-btn-color: rgb(229, 72, 197);
     --bs-btn-border-color: rgb(229, 72, 197);
@@ -112,4 +127,44 @@
     border-radius: 50%;
     height: 60px;
     width: 60px;
+  }
+  .cmain {
+    margin: 15vh;
+    margin-top: 0;
+    margin-bottom: 0;
+   
+  }
+
+  .date-row {
+  
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+  }
+  .date {
+    height: 16vh;
+    width: 16vh;
+    
+    position: relative;
+  }
+  .imgc {
+    height: 16vh;
+    width: 16vh;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+  }
+  .overdate {
+    color: #fff;
+    opacity: 0.6;
+    font-size: 6vh;
+    text-align: center;
+    z-index: 1000;
+    
+  }
+  .overdate p {
+    font-size: 3vh;
   }
