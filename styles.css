@@ -28,7 +28,7 @@
     width: 65%;
     max-height: 80vh;
    position: sticky;
-   top: 10%;
+   top: 12.5%;
    left: 0;
 }
 .right-main {
@@ -100,4 +100,16 @@
   }
   .words {
     color:  rgb(229, 72, 197);
+  }
+  .add-entry {
+    position: fixed;
+    z-index: 1000;
+    bottom: 5%;
+    right: 3%;
+    color: white;
+    background-color: rgb(229, 72, 197);
+    border-color: rgb(229, 72, 197);
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
   }
