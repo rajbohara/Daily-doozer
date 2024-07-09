@@ -16,7 +16,7 @@
             <a href="index.html" class="navbar-brand">Diary</a>
            <div class="buttons"> <button type="button" class="btn btn-outline-success" id="btn" onclick="Showcal()">Calender</button>
             <button type="button" class="btn btn-outline-success">Social</button>
-            <button type="button" class="btn btn-outline-success pinky">Create</button>
+            <button type="button" class="btn btn-outline-success pinky" id="createbtn" onclick="Showcreate()">Create</button>
             </div>
             </div>
           <form class="d-flex" role="search">
@@ -121,5 +121,8 @@
 <script>
  function Showcal(){
   window.location.href = 'calender.html';
+ }
+ function Showcreate(){
+  window.location.href = 'create.html';
  }
 </script>

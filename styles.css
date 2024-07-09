@@ -9,6 +9,7 @@
     --bs-bg-opacity: 1;
     background-color: white;
   }
+ 
 
 .form-control {
    
@@ -113,6 +114,20 @@
     --bs-btn-disabled-border-color: rgb(229, 72, 197);
     --bs-gradient: none;
   }
+  .pinkyp {
+    --bs-btn-color: white;
+    --bs-btn-border-color: rgb(229, 72, 197);
+    --bs-btn-bg: rgb(229, 72, 197);
+    --bs-btn-focus-shadow-rgb: 25, 135, 84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: rgb(255, 255, 255);
+    --bs-btn-active-border-color: rgb(229, 72, 197);
+    --bs-btn-active-shadow: inset 0 3px 5px rgb(229, 72, 197);
+    --bs-btn-disabled-color: rgb(229, 72, 197);
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: rgb(229, 72, 197);
+    --bs-gradient: none;
+  }
   .words {
     color:  rgb(229, 72, 197);
   }
@@ -151,7 +166,7 @@
     height: 16vh;
     width: 16vh;
     border-radius: 50%;
-    object-fit: cover;
+    object-fit: cover;                              /* cause image distortion on making them round */
     position: absolute;
     left: 0px;
     top: 0px;
@@ -168,3 +183,41 @@
   .overdate p {
     font-size: 3vh;
   }
+  .createbody {
+    
+      background-image: url("images/createbg1.jpg");
+      background-size: cover;                          /* cause background image set doesnt fit the screen properly css */
+      height: 100vh;
+      width: 100%;
+  }
+  .creation-window {
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+    background-color: white;
+    height: 80vh;
+    width: 80%;
+    opacity: 0.8;
+    }
+    .dateline {
+      
+      background-color: black;
+      height: 6vh;
+      color: white;
+    
+     
+      position: relative;
+
+    }
+    .datec {
+      
+    font-size: 3vh;
+
+    margin: 0;
+    margin-left: 5vh;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    }
+  

@@ -16,7 +16,7 @@
             <a href="index.html" class="navbar-brand">Diary</a>
            <div class="buttons"> <button type="button" class="btn btn-outline-success-pressed">Calender</button> 
             <button type="button" class="btn btn-outline-success">Social</button>
-            <button type="button" class="btn btn-outline-success pinky">Create</button>
+            <button type="button" class="btn btn-outline-success pinky" id="createbtn" onclick="Showcreate()">Create</button>
             </div>
             </div>
           <form class="d-flex" role="search">
@@ -75,3 +75,9 @@
       </div>
       <button class="add-entry"><h1>📸</h1></button>
       </body>
+      <script>
+       
+        function Showcreate(){
+         window.location.href = 'create.html';
+        }
+       </script>
