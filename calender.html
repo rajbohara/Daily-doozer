@@ -13,11 +13,18 @@
         <div class="container-fluid">
           
           <div class="buttons">
-            <a href="index.html" class="navbar-brand">Diary</a>
+          
+            <form action="/" method="get" id="diaryForm">
+              <a href="#" class="navbar-brand" onclick="document.getElementById('diaryForm').submit(); return false;">Diary</a>
+            </form>
+            
            <div class="buttons"> <button type="button" class="btn btn-outline-success-pressed">Calender</button> 
             <button type="button" class="btn btn-outline-success">Social</button>
-            <button type="button" class="btn btn-outline-success pinky" id="createbtn" onclick="Showcreate()">Create</button>
+             <form action="/submitnew" method="POST">
+              <button type="button submit" style="height: 6vh;" class="btn btn-outline-success pinkyp">Create</button>
+            </form>
             </div>
+
             </div>
           <form class="d-flex" role="search">
             <a><h3>👨‍🦰</h3></a>
@@ -73,7 +80,9 @@
             <div class="date"><div class="overdate"></div></div>
         </div>
       </div>
-      <button class="add-entry"><h1>📸</h1></button>
+      <form action="/submitnew" method="POST">
+        <button type="button submit" class="add-entry" ><h1>📸</h1></button>
+      </form>
       </body>
       <script>
        

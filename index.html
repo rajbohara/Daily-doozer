@@ -13,11 +13,15 @@
         <div class="container-fluid">
           
           <div class="buttons">
-            <a href="index.html" class="navbar-brand">Diary</a>
-           <div class="buttons"> <button type="button" class="btn btn-outline-success" id="btn" onclick="Showcal()">Calender</button>
+            <a href="" class="navbar-brand">Diary</a>
+            <form action="/calender" method="POST">
+           <div class="buttons"> <button type="button submit" class="btn btn-outline-success" id="btn" onclick="Showcal()">Calender</button>
+           </form>
             <button type="button" class="btn btn-outline-success">Social</button>
-            <button type="button" class="btn btn-outline-success pinky" id="createbtn" onclick="Showcreate()">Create</button>
-            </div>
+            <form action="/submitnew" method="POST">
+              <button type="button submit" class="btn btn-outline-success-pressed pinkyp" style="height: 6vh;">Create</button>
+            </form>
+             </div>
             </div>
           <form class="d-flex" role="search">
             <a><h3>👨‍🦰</h3></a>
@@ -115,7 +119,9 @@
          </div>
     </div>
 </div>
-<button class="add-entry"><h1>+</h1></button>
+<form action="/submitnew" method="POST">
+  <button type="button submit" class="add-entry" ><h1>+</h1></button>
+</form>
 </body>
 </html>
 <script>
